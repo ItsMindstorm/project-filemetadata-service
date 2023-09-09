@@ -1,3 +1,10 @@
 # File Metadata Microservice
+This microservice parses the uploaded file metadata and returns the following JSON according to its properties:
 
-This is the boilerplate for the File Metadata Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice
+```json
+{
+    "name": "Filename",
+    "type": "Its mimetype",
+    "size": "The size of the file"
+}
+```
